@@ -1,0 +1,105 @@
+
+#container_header {
+    position: relative;
+    text-align: center;
+    color: rgb(25, 26, 22);
+    font-size: 35px;
+  }
+
+.customer_inquiry {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family:sans-serif;
+    
+  }
+
+#en_fn, #en_ln, #en_ea, #en_pn {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 10px;
+    box-sizing: border-box;
+ 
+}
+
+.en_wholepage{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:50%;
+    margin-left: 25%;
+}
+
+.en_fieldset{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#en_fieldset_sa, #en_fieldset_st, #en_fieldset_s, #en_fieldset_p{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.en_select_list{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#en_product{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+  .button1 {
+    background-color: black; 
+    color: white; 
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 43%;
+  }
+  
+  .button1:hover {
+    background-color: #c91e0b;
+    color: white;
+  }
+
+#en_text{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#en_enquiry_text{
+  margin-left: 48%;
+}

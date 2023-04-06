@@ -1,0 +1,71 @@
+/*This CSS file is used for about.html*/
+body{
+    background-color: white;
+}
+#NghiaSection, #BaoSection,#DuyAnhSection,#HuySection,#MinhSection {
+    border: 3px solid #050506;
+    max-height: 900px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+#Nghia, #Bao,#DuyAnh,#Huy,#Minh  {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-style: double;
+    padding: 20px;  
+    background-color: #ffffff;
+}
+    
+
+h1 {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: -5px;
+
+}
+#NghiaName, #BaoName, #DuyAnhName,#HuyName,#MinhName {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;    
+    font-size: 25px;
+}
+#NghiaStudentID, #BaoStudentID, #DuyAnhStudentID,#HuyStudentID, #MinhStudentID {
+    background-color: #e0e0e0 ;
+    padding: 10px;  
+    font-size: 25px;
+}
+#NghiaCourse, #BaoCourse, #DuyAnhCourse, #HuyCourse, #MinhCourse {
+    background-color: #000000;
+    color: #ffffff ;
+    padding: 10px;  
+    font-size: 25px;
+}
+#NghiaEmail, #BaoEmail, #DuyAnhEmail, #HuyEmail, #MinhEmail {
+    background-color:  #e0e0e0;
+    padding: 10px;  
+    font-size: 25px;
+}
+#NghiaSchedule {
+    text-align: center;
+    margin-top: 20px;
+
+}
+table {
+    width: 100%;
+}
+.AboutTable{
+    border: 1px solid #000000;
+}
+.Subject{
+    background-color: #e0e0e0;
+}
+.personal-image{
+    object-fit: cover;
+}
+#AboutUs {
+    padding: 20px;
+}

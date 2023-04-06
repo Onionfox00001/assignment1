@@ -1,0 +1,212 @@
+/*Author: Duong Quoc Minh 
+This is the css file that is applied to all web pages
+Apart from the menu, it is specifically for product.html and index.html*/
+.h4_product {
+    text-align: center;
+}
+*{font-family: Arial, Helvetica, sans-serif;}
+.product-price {
+    text-align: center;
+}
+/*CSS for product.html*/
+
+/*CSS for h1 of product.html*/
+.h1_product {
+    font: bold 30px normal Arial, sans-serif;  
+    color: black; 
+    height:45px; 
+    margin-top:5%;
+}
+/*product.html background image*/
+#product_div_main {
+    background-image: url("images/product_html_background.jpg");
+    margin-top:-49%;
+}
+/*CSS for product.html table*/
+.product-table {
+    width: 68%;
+}
+.product-th {background-color: rgba(5, 5, 10, 0.897); color:aliceblue; 
+    font: 20px  sans-serif; text-align: center;
+}
+.product-td {
+    background-color: rgb(244, 245, 245);
+    margin-top: -15px; 
+}
+.product-table, .product-th, .product-td{
+    border: 1px solid
+}
+
+/*CSS for product.html aside*/
+.product-aside {
+    float: right; width: 25%; padding: 10px; border-style:ridge; 
+    border-width:5px; border-color: rgb(121, 115, 105); margin: 5px; line-height: 180%;
+    background-color: white;
+}
+.product-aside h3{
+    text-align: center;
+}
+/*CSS for product.html "We offer a wide range of products"*/
+#product-offer {
+    text-align: center; 
+    line-height: 150px;
+}
+#product-offer_div{
+    width:100%;
+}
+/*CSS for product.html and index.html footer*/
+footer{
+    width:100%;
+    background-color:rgb(80, 80, 80); color: white; font: italic bold small Arial, sans-serif;
+    height:100px
+}
+footer div {
+    text-align: center;
+    line-height:100px;
+}
+.social_links img{
+    height:14px;
+    margin-top:30px;
+    margin-left:20px;
+    cursor:pointer;  
+}
+.social_links{
+    text-align: center;
+    line-height: 100px;
+    background:rgb(80, 80, 80);
+}
+#Review {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+
+/*CSS for menu of index.html and other websites*/
+
+/*CSS for the menu and logo*/
+#index_header{
+    flex:1;
+    text-align: right;
+    margin-right: -5%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    padding:5px;
+}
+nav ul li:hover{
+    transform: scale(1.15);
+}
+nav ul li a{
+    color: black;
+    padding: 5px 20px;
+    font-size: 1.2em; font-weight:500;
+    text-decoration: none;
+}
+#index_header_div{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 1.5%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    margin-bottom: -44%;
+    background-color: white;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#logo {
+    display: flex;
+    float:left;
+    position:absolute;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+/*CSS for the background image of h1 of index.html*/
+.index_headline_h1{
+    background-image: url("images/index_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    text-align: center; line-height:600px; color:white; font-size: 30px; margin-top: -43%;
+    overflow: auto;
+}
+/*CSS for the "Our products" section*/
+#index_h2{
+    margin-top:90px;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 35px; border-bottom: 1px groove gray;
+}
+.index_img{
+    width:50%;
+}
+.h4_index{
+    font-size:35px;
+    float: right;
+    margin-right:13%;
+    margin-top:10%;
+}
+.h4_index:hover{
+    transform: scale(1.15);
+}
+.h4_index a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    margin-bottom: 3%;
+}
+
+/*CSS for responsive design*/
+@media screen and (max-width:950px){
+    /*Responsive css for website menu*/
+    nav ul{
+        float:right;
+        width:50%;
+        position:absolute;
+        right:0;
+        top:0;
+    }
+    nav ul li{
+        display:block;
+        margin-top: 10px;
+        
+        margin-right:15px;
+    }
+    #logo{
+        margin-top:15%;
+    }
+    /*Responsive css for "our products" section in index.html*/
+    .h4_index{
+        float: none;
+        text-align:center;
+        padding-left: 15%;
+    }
+    .container{
+        text-align: center;
+    }
+    .index_img{
+        margin-bottom:-9%;
+    }
+}
+@media screen and (max-width:1024px){
+    /*Responsive css for product.html*/
+    .product-aside {
+        float:none;
+        width:96.5%;
+        margin:auto;
+    }
+    .product-table{
+        width:100%;
+    }
+    #product-offer_div{
+        min-height: 135px;
+        min-width:500px;
+    }
+}
