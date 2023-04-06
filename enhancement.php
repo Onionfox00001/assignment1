@@ -109,7 +109,7 @@
 </div>
     <p>
         <label id="en_enquiry_text">Inquiry<br />
-            <textarea id="en_text" rows="15" cols="60" placeholder="What aspect of our product are you interested in?"></textarea>
+            <textarea id="en_text" rows="15" cols="60" placeholder="What aspect of our product are you interest in?"></textarea>
 
         </label>
     </p>
@@ -121,3 +121,4 @@
 </body>
 
 </html>
+
